@@ -10,12 +10,14 @@ yarn add hazzard993/cjson-types
 
 tsconfig that could help with your TypeScriptToLua setup.
 
+This allows `import * as cjson from "cjson";`.
+
 ```json
 {
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "cjson": ["./node_modules/cjson-types/cjson"] // can use 'import * as cjson from "cjson";'
+      "cjson": ["./node_modules/cjson-types/cjson"]
     }
   }
 }
