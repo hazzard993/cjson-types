@@ -1,0 +1,6 @@
+{
+  "name": "cjson-types",
+  "version": "1.0.0",
+  "types": "cjson.d.ts",
+  "license": "MIT"
+}
