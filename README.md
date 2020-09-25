@@ -8,6 +8,21 @@ How to add the definitions via yarn:
 yarn add hazzard993/cjson-types
 ```
 
+tsconfig that could help with your TypeScriptToLua setup.
+
+This allows `import * as cjson from "cjson";`.
+
+```json
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "cjson": ["./node_modules/cjson-types/cjson"]
+    }
+  }
+}
+```
+
 ```ts
 import * as cjson from "cjson";
 const cjson2 = cjson.new();
