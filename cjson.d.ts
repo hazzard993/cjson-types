@@ -1,3 +1,5 @@
+/** @noSelfInFile */
+
 export type CJSONInstance = typeof import("./cjson");
 
 /**
